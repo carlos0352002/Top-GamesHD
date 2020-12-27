@@ -1,0 +1,714 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(img/planet-1702788_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.div-navegacion nav{
+    display: flex;
+    height: 50px;
+
+
+}
+
+nav ul li{
+margin-top: 20px;
+padding-left: 30px;
+padding-right:30px; 
+}
+
+.div-navegacion{
+    background: #E41756;
+    width: 100%;
+   
+    
+}
+
+.div-navegacion ul li {
+  
+    list-style: none;
+    
+}
+
+.div-navegacion a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.div-top{
+    display: flex;
+    margin-left: 480px;
+     
+}
+.div2-nav:hover{
+    background: rgba(0,0,0,0.5);
+    border-bottom: 4px solid white;
+    transition: all 200ms ease;
+  
+
+}
+
+.cabecera h2{
+    color: white;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+
+}
+
+
+
+
+
+.cabecera h2:hover{
+    
+    text-decoration: underline;
+}
+
+
+/*------------------------------img------------------------------*/
+
+
+
+.cont-img img{
+    width: 100%;
+    height:200px;
+}
+
+.cont-texto h2{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.cont-texto p{
+color: black;
+font-family: sans-serif;
+text-align: center;
+margin-top: 10px;
+height: 40px;
+}
+
+.btn a{
+    color:white;
+    background: #08D196;
+    text-decoration: none;
+    font-size: 20px;
+    
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+.btn{
+ top: 90px;
+ left: 90px;
+  position: relative;
+
+}
+
+.juegos-contenedor{
+    width: 30%;
+    background: white;
+    margin-left: 20px;
+   margin-top: 20px;
+   height: 450px;
+
+}
+
+.div-contenedor-principal-1{
+   display: flex;
+   
+}
+
+.juegos-contenedor:hover{
+    opacity: .9;
+    
+}
+
+.img-principal{
+    background: url(img/keyboard-5626500_1920.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 90%;
+    height: 300px;
+   margin-top: 30px;
+   margin-left: 50px;
+}
+
+
+.img-principal h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+
+.img-principal a{
+    color: white;
+    font-family: sans-serif;
+   
+    
+}
+    
+
+.btn-pri a{
+border: 2px solid white;
+text-decoration: none;
+padding: 20px;
+border-radius: 30px;
+}    
+
+
+.btn-pri{
+    margin-top: 90px;
+    margin-left: 40%;
+}
+
+
+.btn-pri a:hover{
+background: rgba(0,0,0,0.5);
+text-decoration: underline;
+}
+
+
+/*-----------------------------------Minecraft---------------------*/
+
+.contenedor{
+    width: 90%;
+    background: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 1000px;
+}
+
+.img-conte img{
+    width: 100%;
+    height: 470px;
+}
+
+.contenido-deljuego h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.contenido-deljuego h2{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.ficha{
+    width: 800px;
+}
+.ficha p{
+    margin-left: 10px;
+}
+
+
+.decargar a{
+text-decoration: none;
+color: white;
+background: #15B784;
+padding: 20px;
+padding-left: 190px;
+padding-right: 190px;
+border-radius: 40px;
+}
+
+.decargar{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.decargar a:hover{
+   background: #1898F1;
+   border: 3px solid black
+}
+
+/*-----------------------------HEADER P.FINAL-------------------------*/
+
+
+.contenedor-flex-header{
+    background: #DADADA;
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.contenedor-texto-flex{
+    display: grid;
+}
+
+.contenedor-texto-flex h2{
+font-family: sans-serif;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.contenedor-texto-flex a{
+    color: #7B7A7A;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.contenedor-texto-flex a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.follow-header h2{
+    font-family: sans-serif;
+    
+    
+}
+
+.follow-header a{
+    text-decoration: none;
+    color: #000000; 
+    padding: 10px;
+    font-size: 20px;
+
+    
+
+}
+
+
+
+.follow-header{
+    margin-left: 430px;
+}
+
+.follow-div{
+    margin-top: 80px;
+}
+
+.icon-facebook{
+    background: #9C9999;
+    padding: 10px;
+    border-radius: 50%
+}
+
+.icon-twitter{
+    background: #9C9999;
+    padding: 10px;
+    border-radius: 50%
+}
+
+.icon-instagram{
+    background: #9C9999;
+    padding: 10px;
+    border-radius: 50%
+}
+
+.icon-facebook:hover{
+    background: #FFFFFF;
+    color: blue;
+    transition: all 200ms ease;
+}
+
+.icon-twitter:hover{
+    background: #FFFFFF;
+    color: #2CCDFB;
+     transition: all 200ms ease;
+}
+
+.icon-instagram:hover{
+    background: white;
+    color: #ED621E;
+     transition: all 200ms ease;
+}
+
+/*------------------------------------FOOTER---------------------------*/
+
+.footer-final{
+    display: flex;
+    background: #929292;
+    padding: 10px;
+    width: 100%
+}
+
+.footer-final p{
+    color: black;
+    text-align: center;
+}
+
+
+.footer-final a{
+    color: black;
+    text-align: center;
+
+}
+
+.div-footer{
+    margin-left: 300px;
+    display: flex;
+}
+
+/*-----------------------CONTACTO---------------------------------------*/
+
+
+.contenedor-contacto{
+  
+    width: 60%;
+    height: 200px;
+    margin-left: 260px;
+    margin-top: 90px;
+}
+
+
+.contenedor-contacto .icon-youtube{
+    background: #9C9999;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+}
+
+
+.contenedor-contacto a{
+text-decoration: none;
+font-size: 60px;
+padding-left: 30px;
+}
+
+.contenedor-contacto .icon-whatsapp{
+      background: #9C9999;
+    padding: 10px;
+    border-radius: 50%;
+color: black;}
+
+.contenedor-contacto .icon-whatsapp:hover{
+  color: #09D42F;
+     transition: all 200ms ease;  
+     background: white;
+
+}
+
+.contenedor-contacto .icon-youtube:hover{
+  color: #FF0000;
+     transition: all 200ms ease; 
+     background: white; 
+      padding: 30px;
+      transition:all 300ms ease;
+}
+
+.contenedor-contacto .icon-facebook{
+    color: black;
+}
+
+.contenedor-contacto .icon-twitter{
+    color: black;
+}
+
+.contenedor-contacto .icon-instagram{
+    color: black
+}
+
+
+
+
+.contenedor-contacto .icon-facebook:hover{
+    color: blue;
+    padding: 30px;
+    transition:all 300ms ease;
+}
+
+.contenedor-contacto .icon-twitter:hover{
+    color: #0FACEE;
+    padding: 30px;
+    transition:all 300ms ease;
+}
+
+.contenedor-contacto .icon-instagram:hover{
+    color: #FC5E19;
+    padding: 30px;
+    transition:all 300ms ease;
+    
+
+}
+
+
+
+.gmail a{
+    text-decoration: none;
+
+}
+
+.gmail {
+    margin-top: 30px;
+    margin-left: 340px;
+
+}
+
+.icon-mail4{
+    font-size: 90px;
+    color:black;
+    margin-left: 110px;
+ 
+
+}
+
+.icon-mail4:hover{
+    color: white;
+}
+
+.gmail h2{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+}
+
+.gmail p{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.icon-paypal{
+    color: blue;
+    font-size: 50px;
+}
+
+
+.youtube-video h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.youtube-video iframe{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+
+.contenedor-wha-tex{
+background:rgba(0,0,0,0.4);
+width: 400px;
+color: white;
+margin-left: 300px;
+ 
+}
+
+.contenedor-wha-tex h2{
+text-align: center;
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+.contenedor-wha-tex p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+.icon-wha-div .icon-whatsapp{
+    font-size: 60px;
+    position: relative;
+    background: rgba(255, 255, 255,0.5);
+    padding: 20px;
+    border-radius: 50%;
+    color: #0BFF3F;
+    top: -20px;
+    left: 140px;
+}
+
+
+/*---------------YOUTUBE FOLLOW------------------------------*/
+
+.youtube-foll{
+    background: url(img/youtube-2712573.png);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.youtube-foll h1{
+    font-size: 50px;
+ font-family: Segoe Script;
+ text-align: center;
+}
+
+
+.btn-rss a {
+color: black;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+
+.btn-rss .icon-youtube{
+    color: red;
+    font-size: 20px;
+}
+
+.btn-rss{
+    border: 2px solid white;
+    width: 140px;
+    padding:10px;
+    margin-left: 380px;
+    margin-top: 140px;
+
+}
+
+.btn-rss:hover{
+    opacity: .5;
+    
+
+}
+
+.btn-rss a:hover{
+    text-decoration: underline white;
+
+}
+
+
+/*-------------------------------Sobre nosotros-----------------------*/
+
+.contedor-poppup{
+    width: 700px;
+    background: #FFFFFF;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease;
+    margin-left: 10px;
+    height: 700px;
+    box-shadow: 5px 7px 7px 7px black;
+    
+    
+
+}
+
+.text-contenedor-pop h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btn-open-poppup:checked  ~  .contedor-poppup{
+    visibility: visible;
+    opacity: 1;
+    transition: all 500ms ease;
+    margin-left: 120px;
+
+}
+
+#btn-open-poppup:checked  ~ .btn-close-poppup{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.text-contenedor-pop p{
+    margin: 20px;
+
+}
+.text-contenedor-pop img{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.icon-cancel-circle {
+    font-size: 30px;
+    position: relative;
+    top:10px ;
+    left: 650px;
+    cursor: pointer;
+}
+
+.btn-close-poppup{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 230px;
+    left: 380px;
+
+
+}
+ 
+
+ #btn-open-poppup{
+ position: relative;
+ right: 3000px;
+ display: none;
+ }
+
+
+.btn-poppup-Youtube a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.btn-poppup-Youtube  .icon-youtube{
+    color: red;
+    font-size: 40px;
+
+}
+
+.btn-poppup-Youtube{
+    margin-left:170px; 
+    margin-top: 40px;
+}
+
+
+.btn-poppup-Youtube a:hover{
+    text-decoration: underline;
+}
+
+
+.btn-close-poppup:hover{
+    border: 2px solid white;
+    transition: all 100ms ease;
+}
+
+
+.btn-close-poppup .icon-circle-up{
+   
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
